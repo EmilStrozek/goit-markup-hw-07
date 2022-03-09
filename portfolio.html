@@ -284,72 +284,65 @@
 
 
   <!-- STOPKA -->
-  <footer class="footer">
-    <div class="container">
-      <div class="address-wrapper">
-        <a class="logo-link" href="index.html"
-              >Web<span class="logo-light">Studio</span></a
-    >
-    <address class="address">
-      <ul class="address-list list">
-        <li class="address-list-item">
-          <a
-            class="address-list-link street"
-            href="https://goo.gl/maps/AZBb3oWcoWajxazx5"
-            target="_blank"
-            >m. Warszawa, Aleje Jerozolimskie 21</a
-          >
+<footer class="footer">
+  <div class="container">
+    <div class="address-wrapper">
+      <a class="logo" href="index.html">Web<span class="logo__accent--light-theme">Studio</span></a>
+      <address class="address">
+        <ul class="address-list list">
+          <li class="address-list__item">
+            <a class="address-list__link address-list__link--light-theme" href="https://goo.gl/maps/AZBb3oWcoWajxazx5"
+              target="_blank">m. Warszawa, Aleje Jerozolimskie 21</a>
+          </li>
+          <li class="address-list__item">
+            <a class="address-list__link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+          </li>
+          <li class="address-list__item">
+            <a class="address-list__link" href="tel:+48111111111">+48 111 111 111</a>
+          </li>
+        </ul>
+      </address>
+    </div>
+    <div class="join-us__wrapper">
+      <p class="join-us">DOŁĄCZ DO NAS</p>
+      <ul class="socials-list list">
+        <li class="socials-list__item social-padding">
+          <a href="#" class="socials-list__link join-us--grey-link-theme">
+            <svg class="socials-list__icon join-us--white-icon-theme">
+              <use href="images/icons.svg#instagram"></use>
+            </svg>
+          </a>
         </li>
-        <li class="address-list-item">
-          <a class="address-list-link" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
+        <li class="socials-list__item social-padding">
+          <a href="#" class="socials-list__link join-us--grey-link-theme"><svg
+              class="socials-list__icon join-us--white-icon-theme">
+              <use href="images/icons.svg#twitter"></use>
+            </svg></a>
         </li>
-        <li class="address-list-item">
-          <a class="address-list-link" href="tel:+48111111111"
-            >+48 111 111 111</a
-          >
+        <li class="socials-list__item social-padding">
+          <a href="#" class="socials-list__link join-us--grey-link-theme"><svg
+              class="socials-list__icon join-us--white-icon-theme">
+              <use href="images/icons.svg#facebook"></use>
+            </svg></a>
+        </li>
+        <li class="socials-list__item social-padding">
+          <a href="#" class="socials-list__link join-us--grey-link-theme"><svg
+              class="socials-list__icon join-us--white-icon-theme">
+              <use href="images/icons.svg#linkedin"></use>
+            </svg></a>
         </li>
       </ul>
-    </address>
-   </div>
-  <div class="contact-us-wrapper">
-    <p class="join-us">DOŁĄCZ DO NAS</p>
-    <ul class="socials-list list">
-      <li class="socials-list-item social-padding">
-        <a href="#" class="socials-link grey-circle">
-          <svg class="socials-icon white-icon">
-            <use href="images/icons.svg#instagram"></use>
+    </div>
+    <div class="sign-up__wrapper">
+      <p class="sing-up">Zapisz się do newslettera</p>
+      <form action="#" class="sign-up__form" name="signup_form" autocomplete="on">
+        <input class="sign-up__input" type="email" name="email" placeholder="E-mail" required />
+
+        <button class="primary-btn sign-up__btn" type="submit">
+          Zapisz się
+          <svg class="sign-up__icon">
+            <use href="images/icons.svg#icon-send"></use>
           </svg>
-        </a>
-      </li>
-      <li class="socials-list-item social-padding">
-        <a href="#" class="socials-link grey-circle"><svg class="socials-icon white-icon">
-            <use href="images/icons.svg#twitter"></use>
-          </svg></a>
-      </li>
-      <li class="socials-list-item social-padding">
-        <a href="#" class="socials-link grey-circle"><svg class="socials-icon white-icon">
-            <use href="images/icons.svg#facebook"></use>
-          </svg></a>
-      </li>
-      <li class="socials-list-item social-padding">
-        <a href="#" class="socials-link grey-circle"><svg class="socials-icon white-icon">
-            <use href="images/icons.svg#linkedin"></use>
-          </svg></a>
-      </li>
-    </ul>
-  </div>
-  <div class="newsletter-wrapper">
-    <p class="sign-up-title">Zapisz się do newslettera</p>
-    <form action="#" class="form-sign-up" name="signup_form" autocomplete="on">
-      <input class="input-sign-up" type="email" name="email" placeholder="E-mail" required />
-  
-      <button class="primary-btn sign-up-btn" type="submit">
-        Zapisz się
-        <svg class="sign-up-icon">
-          <use href="images/icons.svg#icon-send"></use>
-        </svg>
       </button>
     </form>
   </div>
