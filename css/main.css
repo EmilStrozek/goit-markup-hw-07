@@ -163,7 +163,7 @@ a {
   font-size: 12px;
   line-height: 1.167;
   letter-spacing: 0.01em;
-  color: var(--grey-txt-color);
+  color: #757575;
   margin-bottom: 4px;
 }
 
@@ -180,7 +180,7 @@ a {
 .modal__links {
   text-decoration-line: underline;
   text-decoration-skip-ink: none;
-  color: accent-color;
+  color: #2196f3;
 }
 
 .modal__input {
@@ -196,11 +196,11 @@ a {
 
 .modal__input:focus {
   outline: none;
-  border-color: accent-color;
+  border-color: #2196f3;
 }
 
 .modal__input:focus + .modal__icon {
-  color: accent-color;
+  color: #2196f3;
 }
 
 .modal__input-position {
@@ -220,7 +220,7 @@ a {
 
 .modal__textarea:focus {
   outline: none;
-  border-color: accent-color;
+  border-color: #2196f3;
 }
 
 .modal__textarea::placeholder {
@@ -238,7 +238,7 @@ a {
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
-  color: var(--grey-txt-color);
+  color: #757575;
   text-align: center;
 }
 
@@ -261,7 +261,7 @@ a {
 }
 
 .modal__checkbox:checked + .modal__terms::before {
-  background-color: accent-color;
+  background-color: #2196f3;
   border: none;
   background-image: url(../images/submit-icon.svg);
   background-repeat: no-repeat;
