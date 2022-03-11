@@ -29,7 +29,7 @@
 		font-size: 12px;
 		line-height: 1.167;
 		letter-spacing: 0.01em;
-		color: $secondary-txt-color;
+		color: var(--grey-txt-color);
 		margin-bottom: 4px;
 	}
 
@@ -46,7 +46,7 @@
 	&__links {
 		text-decoration-line: underline;
 		text-decoration-skip-ink: none;
-		color: $accent-color;
+		color: accent-color;
 	}
 	
 }
@@ -63,13 +63,13 @@
 
 	&:focus {
 		outline: none;
-		border-color: $accent-color;
+		border-color: accent-color;
 	}
 	&:focus + .modal__icon {
-		color: $accent-color;
+		color: accent-color;
 	}
 
-	&--position {
+	&-position {
 		position: relative;
 	}
 	
@@ -87,7 +87,7 @@
 
 	&:focus {
 		outline: none;
-		border-color: $accent-color;
+		border-color: accent-color;
 	}
 
 	&::placeholder {
@@ -106,7 +106,7 @@
 	font-size: 14px;
 	line-height: 1.714;
 	letter-spacing: 0.03em;
-	color: $secondary-txt-color;
+	color: var(--grey-txt-color);
 	text-align: center;
 
 	&::before {
@@ -131,7 +131,7 @@
 }
 
 .modal__checkbox:checked + .modal__terms::before {
-	background-color: $accent-color;
+	background-color: accent-color;
 	border: none;
 	background-image: url(../images/submit-icon.svg);
 	background-repeat: no-repeat;

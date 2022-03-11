@@ -163,7 +163,7 @@ a {
   font-size: 12px;
   line-height: 1.167;
   letter-spacing: 0.01em;
-  color: #757575;
+  color: var(--grey-txt-color);
   margin-bottom: 4px;
 }
 
@@ -180,7 +180,7 @@ a {
 .modal__links {
   text-decoration-line: underline;
   text-decoration-skip-ink: none;
-  color: #2196f3;
+  color: accent-color;
 }
 
 .modal__input {
@@ -196,14 +196,14 @@ a {
 
 .modal__input:focus {
   outline: none;
-  border-color: #2196f3;
+  border-color: accent-color;
 }
 
 .modal__input:focus + .modal__icon {
-  color: #2196f3;
+  color: accent-color;
 }
 
-.modal__input--position {
+.modal__input-position {
   position: relative;
 }
 
@@ -220,7 +220,7 @@ a {
 
 .modal__textarea:focus {
   outline: none;
-  border-color: #2196f3;
+  border-color: accent-color;
 }
 
 .modal__textarea::placeholder {
@@ -238,7 +238,7 @@ a {
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--grey-txt-color);
   text-align: center;
 }
 
@@ -261,7 +261,7 @@ a {
 }
 
 .modal__checkbox:checked + .modal__terms::before {
-  background-color: #2196f3;
+  background-color: accent-color;
   border: none;
   background-image: url(../images/submit-icon.svg);
   background-repeat: no-repeat;
